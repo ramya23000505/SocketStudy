@@ -1,5 +1,5 @@
 # Ex.No:1a  			Study of Socket Programming
-
+### Date:
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
@@ -53,9 +53,9 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 ## Program :
-/*
-## Register Number: 212223230169
-## developed by: Ramya R
+
+### Register Number: 212223230169
+### developed by: Ramya R
  ## Client.py
 ~~~
 import socket
@@ -82,9 +82,10 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ~~~
-*/
+
 ## Output :
-![ex 1a output](https://github.com/user-attachments/assets/6d98a9f0-cce1-4e13-af73-0620f267d551)
+![Screenshot 2024-10-16 083318](https://github.com/user-attachments/assets/5f0d845a-fdcf-4f2a-a80b-c908ad3d9dc4)
+![Screenshot 2024-10-16 083327](https://github.com/user-attachments/assets/a3a8782e-2b03-41bf-9f1f-af6b0ef45a7d)
 
 
 ## Result:
